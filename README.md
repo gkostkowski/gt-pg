@@ -6,11 +6,11 @@ _gt-pg_ library also allows to access graph-tool objects.
 
 # Quickstart
 
-Graph-tool Property Graph is available on PyPI and can be installed with
-[pip](https://pip.pypa.io).
+Graph-tool Property Graph is available on custom CLARIN PyPI repository and can be
+installed with [pip](https://pip.pypa.io).
 
 ```bash
-$ pip install gt_pg
+$ pip install --ignore-installed --extra-index-url https://pypi.clarin-pl.eu/ gt-pg
 ```
 
 After installing Graph-tool Property Graph you can use it like any other
